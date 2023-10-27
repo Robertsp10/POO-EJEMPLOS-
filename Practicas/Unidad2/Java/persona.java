@@ -1,9 +1,16 @@
 package practicas.unidad2.java;
 
 class Persona {
-    String nombre;
-    int edad;
-    boolean vive;
+    private String nombre;
+    private int edad;
+    private boolean vive;
+
+    Persona(String nombre, int edad) {
+
+        this.nombre = nombre;
+        this.edad = edad;
+        this.vive = true;
+    }
 
     void saludar() {
         System.out.println("Hola mi nombre es " + nombre);
@@ -40,5 +47,22 @@ class Persona {
         System.out.println("La edad de la persona es " + persona.edad);
         System.out.println("La persona vive? " + persona.vive);
 
+    }
+
+    int miEdad();
+
+    {
+
+        returnthis.edad;
+    }
+
+    boolean vive();
+
+    {
+        return this.vive;
+    }
+
+    String minombre();{
+        return.this.nombre;
     }
 }
