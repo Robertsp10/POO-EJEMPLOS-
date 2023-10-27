@@ -8,13 +8,19 @@ public class Main {
         persona.nombre = "Rogelio";
         persona.vive = true;
 
-        persona.saludar();
-        persona.incrementaredad();
-        persona.morir();
-
         System.out.println("La edad de la persona es " + persona.edad);
+        System.out.println("La persona vive? " + persona.vive);
 
-        System.out.println("Hola mi nombre es " + persona.nombre);
+        persona.saludar();
+        System.out.println("La edad de la persona  es " + persona.nombre);
+        System.out.println("La persona vive? " + persona.vive);
+
+        persona.incrementaredad();
+        System.out.println("La edad de la persona es " + persona.edad);
+        System.out.println("La persona vive? " + persona.vive);
+
+        persona.morir();
+        System.out.println("La edad de la persona es " + persona.edad);
         System.out.println("La persona vive? " + persona.vive);
 
     }
